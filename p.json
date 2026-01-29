@@ -1,0 +1,3626 @@
+{
+  "id": "project_1769501816869_6wu358id6",
+  "type": "Project",
+  "name": "p",
+  "description": "New project",
+  "owner": "m",
+  "createdAt": "2026-01-27T08:16:56.869Z",
+  "currentDiagramType": "ClassDiagram",
+  "diagrams": {
+    "ClassDiagram": {
+      "id": "2cb1e0d2-5dea-44b3-b0c8-950049d0c171",
+      "title": "model",
+      "model": {
+        "version": "3.0.0",
+        "type": "ClassDiagram",
+        "size": {
+          "width": 2050,
+          "height": 1700
+        },
+        "interactive": {
+          "elements": {},
+          "relationships": {}
+        },
+        "elements": {
+          "7db6d44f-f245-4c8b-bedb-50de4a04c1d0": {
+            "id": "7db6d44f-f245-4c8b-bedb-50de4a04c1d0",
+            "name": "Project",
+            "type": "Class",
+            "owner": null,
+            "bounds": {
+              "x": -940,
+              "y": -720,
+              "width": 210,
+              "height": 190
+            },
+            "attributes": [
+              "b68518cb-8823-4ca1-af7b-67a41a771833",
+              "1014541c-b60f-4517-839e-4b53bae19968",
+              "0c5893c1-08a5-41b0-98f4-d009cf6b87e6",
+              "9e26777c-a870-40e1-84b4-68f2a5079fef",
+              "b0ed376d-1441-497e-9d11-4d3b13b9c5c6"
+            ],
+            "methods": []
+          },
+          "b68518cb-8823-4ca1-af7b-67a41a771833": {
+            "id": "b68518cb-8823-4ca1-af7b-67a41a771833",
+            "name": "name",
+            "type": "ClassAttribute",
+            "owner": "7db6d44f-f245-4c8b-bedb-50de4a04c1d0",
+            "bounds": {
+              "x": -939.5,
+              "y": -679.5,
+              "width": 209,
+              "height": 30
+            },
+            "code": "",
+            "visibility": "public",
+            "attributeType": "str",
+            "implementationType": "none",
+            "stateMachineId": "",
+            "quantumCircuitId": ""
+          },
+          "1014541c-b60f-4517-839e-4b53bae19968": {
+            "id": "1014541c-b60f-4517-839e-4b53bae19968",
+            "name": "type",
+            "type": "ClassAttribute",
+            "owner": "7db6d44f-f245-4c8b-bedb-50de4a04c1d0",
+            "bounds": {
+              "x": -939.5,
+              "y": -649.5,
+              "width": 209,
+              "height": 30
+            },
+            "code": "",
+            "visibility": "public",
+            "attributeType": "ProjectType",
+            "implementationType": "none",
+            "stateMachineId": "",
+            "quantumCircuitId": ""
+          },
+          "0c5893c1-08a5-41b0-98f4-d009cf6b87e6": {
+            "id": "0c5893c1-08a5-41b0-98f4-d009cf6b87e6",
+            "name": "status",
+            "type": "ClassAttribute",
+            "owner": "7db6d44f-f245-4c8b-bedb-50de4a04c1d0",
+            "bounds": {
+              "x": -939.5,
+              "y": -619.5,
+              "width": 209,
+              "height": 30
+            },
+            "code": "",
+            "visibility": "public",
+            "attributeType": "ProjectStatus",
+            "implementationType": "none",
+            "stateMachineId": "",
+            "quantumCircuitId": ""
+          },
+          "9e26777c-a870-40e1-84b4-68f2a5079fef": {
+            "id": "9e26777c-a870-40e1-84b4-68f2a5079fef",
+            "name": "description",
+            "type": "ClassAttribute",
+            "owner": "7db6d44f-f245-4c8b-bedb-50de4a04c1d0",
+            "bounds": {
+              "x": -939.5,
+              "y": -589.5,
+              "width": 209,
+              "height": 30
+            },
+            "code": "",
+            "visibility": "public",
+            "attributeType": "str",
+            "implementationType": "none",
+            "stateMachineId": "",
+            "quantumCircuitId": ""
+          },
+          "b0ed376d-1441-497e-9d11-4d3b13b9c5c6": {
+            "id": "b0ed376d-1441-497e-9d11-4d3b13b9c5c6",
+            "name": "id",
+            "type": "ClassAttribute",
+            "owner": "7db6d44f-f245-4c8b-bedb-50de4a04c1d0",
+            "bounds": {
+              "x": -939.5,
+              "y": -559.5,
+              "width": 209,
+              "height": 30
+            },
+            "code": "",
+            "visibility": "public",
+            "attributeType": "int",
+            "implementationType": "none",
+            "stateMachineId": "",
+            "quantumCircuitId": ""
+          },
+          "df7eb41f-1dae-4d5d-8b31-3e01057337cc": {
+            "id": "df7eb41f-1dae-4d5d-8b31-3e01057337cc",
+            "name": "User",
+            "type": "Class",
+            "owner": null,
+            "bounds": {
+              "x": -650,
+              "y": -830,
+              "width": 510,
+              "height": 310
+            },
+            "attributes": [
+              "199e6791-a5fc-42cd-9f3b-9438d826c3c8",
+              "f3fd395e-8850-4565-a889-f83f95f098d3",
+              "37aed11b-a7c3-4089-a095-189d12ed3379",
+              "560dc516-82d0-48ee-bd1a-8a4d8494bb3a",
+              "add31199-8b9a-4e2c-b9b2-f309eeb1150d",
+              "ffa411de-42cd-4f75-98b9-a1ec0ca7a87e",
+              "dc2d0cae-4738-4267-bab5-d4fe0c83602e",
+              "f55e4369-0c52-4397-a588-c262e180b590",
+              "1fb94fe0-f649-44a0-a430-a6d19824f63f"
+            ],
+            "methods": []
+          },
+          "199e6791-a5fc-42cd-9f3b-9438d826c3c8": {
+            "id": "199e6791-a5fc-42cd-9f3b-9438d826c3c8",
+            "name": "email",
+            "type": "ClassAttribute",
+            "owner": "df7eb41f-1dae-4d5d-8b31-3e01057337cc",
+            "bounds": {
+              "x": -649.5,
+              "y": -789.5,
+              "width": 509,
+              "height": 30
+            },
+            "code": "",
+            "visibility": "public",
+            "attributeType": "str",
+            "implementationType": "none",
+            "stateMachineId": "",
+            "quantumCircuitId": ""
+          },
+          "f3fd395e-8850-4565-a889-f83f95f098d3": {
+            "id": "f3fd395e-8850-4565-a889-f83f95f098d3",
+            "name": "username",
+            "type": "ClassAttribute",
+            "owner": "df7eb41f-1dae-4d5d-8b31-3e01057337cc",
+            "bounds": {
+              "x": -649.5,
+              "y": -759.5,
+              "width": 509,
+              "height": 30
+            },
+            "code": "",
+            "visibility": "public",
+            "attributeType": "str",
+            "implementationType": "none",
+            "stateMachineId": "",
+            "quantumCircuitId": ""
+          },
+          "37aed11b-a7c3-4089-a095-189d12ed3379": {
+            "id": "37aed11b-a7c3-4089-a095-189d12ed3379",
+            "name": "role",
+            "type": "ClassAttribute",
+            "owner": "df7eb41f-1dae-4d5d-8b31-3e01057337cc",
+            "bounds": {
+              "x": -649.5,
+              "y": -729.5,
+              "width": 509,
+              "height": 30
+            },
+            "code": "",
+            "visibility": "public",
+            "attributeType": "Role",
+            "implementationType": "none",
+            "stateMachineId": "",
+            "quantumCircuitId": ""
+          },
+          "560dc516-82d0-48ee-bd1a-8a4d8494bb3a": {
+            "id": "560dc516-82d0-48ee-bd1a-8a4d8494bb3a",
+            "name": "status",
+            "type": "ClassAttribute",
+            "owner": "df7eb41f-1dae-4d5d-8b31-3e01057337cc",
+            "bounds": {
+              "x": -649.5,
+              "y": -699.5,
+              "width": 509,
+              "height": 30
+            },
+            "code": "",
+            "visibility": "public",
+            "attributeType": "UserStatus",
+            "implementationType": "none",
+            "stateMachineId": "",
+            "quantumCircuitId": ""
+          },
+          "add31199-8b9a-4e2c-b9b2-f309eeb1150d": {
+            "id": "add31199-8b9a-4e2c-b9b2-f309eeb1150d",
+            "name": "passwordHash",
+            "type": "ClassAttribute",
+            "owner": "df7eb41f-1dae-4d5d-8b31-3e01057337cc",
+            "bounds": {
+              "x": -649.5,
+              "y": -669.5,
+              "width": 509,
+              "height": 30
+            },
+            "code": "",
+            "visibility": "public",
+            "attributeType": "str",
+            "implementationType": "none",
+            "stateMachineId": "",
+            "quantumCircuitId": ""
+          },
+          "ffa411de-42cd-4f75-98b9-a1ec0ca7a87e": {
+            "id": "ffa411de-42cd-4f75-98b9-a1ec0ca7a87e",
+            "name": "name",
+            "type": "ClassAttribute",
+            "owner": "df7eb41f-1dae-4d5d-8b31-3e01057337cc",
+            "bounds": {
+              "x": -649.5,
+              "y": -639.5,
+              "width": 509,
+              "height": 30
+            },
+            "code": "",
+            "visibility": "public",
+            "attributeType": "str",
+            "implementationType": "none",
+            "stateMachineId": "",
+            "quantumCircuitId": ""
+          },
+          "dc2d0cae-4738-4267-bab5-d4fe0c83602e": {
+            "id": "dc2d0cae-4738-4267-bab5-d4fe0c83602e",
+            "name": "created_at",
+            "type": "ClassAttribute",
+            "owner": "df7eb41f-1dae-4d5d-8b31-3e01057337cc",
+            "bounds": {
+              "x": -649.5,
+              "y": -609.5,
+              "width": 509,
+              "height": 30
+            },
+            "code": "",
+            "visibility": "public",
+            "attributeType": "datetime",
+            "implementationType": "none",
+            "stateMachineId": "",
+            "quantumCircuitId": ""
+          },
+          "f55e4369-0c52-4397-a588-c262e180b590": {
+            "id": "f55e4369-0c52-4397-a588-c262e180b590",
+            "name": "updated_at",
+            "type": "ClassAttribute",
+            "owner": "df7eb41f-1dae-4d5d-8b31-3e01057337cc",
+            "bounds": {
+              "x": -649.5,
+              "y": -579.5,
+              "width": 509,
+              "height": 30
+            },
+            "code": "",
+            "visibility": "public",
+            "attributeType": "datetime",
+            "implementationType": "none",
+            "stateMachineId": "",
+            "quantumCircuitId": ""
+          },
+          "1fb94fe0-f649-44a0-a430-a6d19824f63f": {
+            "id": "1fb94fe0-f649-44a0-a430-a6d19824f63f",
+            "name": "id",
+            "type": "ClassAttribute",
+            "owner": "df7eb41f-1dae-4d5d-8b31-3e01057337cc",
+            "bounds": {
+              "x": -649.5,
+              "y": -549.5,
+              "width": 509,
+              "height": 30
+            },
+            "code": "",
+            "visibility": "public",
+            "attributeType": "int",
+            "implementationType": "none",
+            "stateMachineId": "",
+            "quantumCircuitId": ""
+          },
+          "ed4b38a3-ba91-4f17-ae05-08d5906decd2": {
+            "id": "ed4b38a3-ba91-4f17-ae05-08d5906decd2",
+            "name": "Role",
+            "type": "Enumeration",
+            "owner": null,
+            "bounds": {
+              "x": -40,
+              "y": -630,
+              "width": 170,
+              "height": 110
+            },
+            "attributes": [
+              "f4915729-c0dc-4d6e-9f60-8e8b636d5335",
+              "418028db-5157-422f-ac83-f2a15e003159"
+            ],
+            "methods": []
+          },
+          "f4915729-c0dc-4d6e-9f60-8e8b636d5335": {
+            "id": "f4915729-c0dc-4d6e-9f60-8e8b636d5335",
+            "name": "ADMIN",
+            "type": "ClassAttribute",
+            "owner": "ed4b38a3-ba91-4f17-ae05-08d5906decd2",
+            "bounds": {
+              "x": -39.5,
+              "y": -579.5,
+              "width": 169,
+              "height": 30
+            },
+            "code": "",
+            "visibility": "public",
+            "attributeType": "str",
+            "implementationType": "none",
+            "stateMachineId": "",
+            "quantumCircuitId": ""
+          },
+          "418028db-5157-422f-ac83-f2a15e003159": {
+            "id": "418028db-5157-422f-ac83-f2a15e003159",
+            "name": "END_USER",
+            "type": "ClassAttribute",
+            "owner": "ed4b38a3-ba91-4f17-ae05-08d5906decd2",
+            "bounds": {
+              "x": -39.5,
+              "y": -549.5,
+              "width": 169,
+              "height": 30
+            },
+            "code": "",
+            "visibility": "public",
+            "attributeType": "str",
+            "implementationType": "none",
+            "stateMachineId": "",
+            "quantumCircuitId": ""
+          },
+          "6299820f-aa9c-4d1e-8e7e-18d22121c42d": {
+            "id": "6299820f-aa9c-4d1e-8e7e-18d22121c42d",
+            "name": "ProjectRole",
+            "type": "Enumeration",
+            "owner": null,
+            "bounds": {
+              "x": 140,
+              "y": -820,
+              "width": 160,
+              "height": 110
+            },
+            "attributes": [
+              "720b3686-c66c-4ef4-899f-874658c9aff1",
+              "00d907de-d67e-426e-bb6d-d1526822dcd4"
+            ],
+            "methods": []
+          },
+          "720b3686-c66c-4ef4-899f-874658c9aff1": {
+            "id": "720b3686-c66c-4ef4-899f-874658c9aff1",
+            "name": "MANAGER",
+            "type": "ClassAttribute",
+            "owner": "6299820f-aa9c-4d1e-8e7e-18d22121c42d",
+            "bounds": {
+              "x": 140.5,
+              "y": -769.5,
+              "width": 159,
+              "height": 30
+            },
+            "code": "",
+            "visibility": "public",
+            "attributeType": "str",
+            "implementationType": "none",
+            "stateMachineId": "",
+            "quantumCircuitId": ""
+          },
+          "00d907de-d67e-426e-bb6d-d1526822dcd4": {
+            "id": "00d907de-d67e-426e-bb6d-d1526822dcd4",
+            "name": "DEVELOPER",
+            "type": "ClassAttribute",
+            "owner": "6299820f-aa9c-4d1e-8e7e-18d22121c42d",
+            "bounds": {
+              "x": 140.5,
+              "y": -739.5,
+              "width": 159,
+              "height": 30
+            },
+            "code": "",
+            "visibility": "public",
+            "attributeType": "str",
+            "implementationType": "none",
+            "stateMachineId": "",
+            "quantumCircuitId": ""
+          },
+          "a81c82f2-f84c-4dd9-866f-a12ac86d9efe": {
+            "id": "a81c82f2-f84c-4dd9-866f-a12ac86d9efe",
+            "name": "ProjectType",
+            "type": "Enumeration",
+            "owner": null,
+            "bounds": {
+              "x": -40,
+              "y": -500,
+              "width": 290,
+              "height": 230
+            },
+            "attributes": [
+              "bf0ff622-42a2-44fb-a8f3-39a659e6bb91",
+              "3f21737a-cc65-4608-8c53-3dd1b067951f",
+              "b043c53e-b354-4bf1-b6d0-6ee9c9f78900",
+              "7f575eb3-c289-474d-8f01-b52bcfeb1e83",
+              "937b632c-f4a6-46ac-bd1e-c60b050a985b",
+              "da43b2f9-201d-41a7-b927-6e96aeb2ccdc"
+            ],
+            "methods": []
+          },
+          "bf0ff622-42a2-44fb-a8f3-39a659e6bb91": {
+            "id": "bf0ff622-42a2-44fb-a8f3-39a659e6bb91",
+            "name": "PROJECT_WORK",
+            "type": "ClassAttribute",
+            "owner": "a81c82f2-f84c-4dd9-866f-a12ac86d9efe",
+            "bounds": {
+              "x": -39.5,
+              "y": -449.5,
+              "width": 289,
+              "height": 30
+            },
+            "code": "",
+            "visibility": "public",
+            "attributeType": "str",
+            "implementationType": "none",
+            "stateMachineId": "",
+            "quantumCircuitId": ""
+          },
+          "3f21737a-cc65-4608-8c53-3dd1b067951f": {
+            "id": "3f21737a-cc65-4608-8c53-3dd1b067951f",
+            "name": "SEMINAR_PAPER",
+            "type": "ClassAttribute",
+            "owner": "a81c82f2-f84c-4dd9-866f-a12ac86d9efe",
+            "bounds": {
+              "x": -39.5,
+              "y": -419.5,
+              "width": 289,
+              "height": 30
+            },
+            "code": "",
+            "visibility": "public",
+            "attributeType": "str",
+            "implementationType": "none",
+            "stateMachineId": "",
+            "quantumCircuitId": ""
+          },
+          "b043c53e-b354-4bf1-b6d0-6ee9c9f78900": {
+            "id": "b043c53e-b354-4bf1-b6d0-6ee9c9f78900",
+            "name": "INDEPENDENT_SCIENTIFIC_WORK",
+            "type": "ClassAttribute",
+            "owner": "a81c82f2-f84c-4dd9-866f-a12ac86d9efe",
+            "bounds": {
+              "x": -39.5,
+              "y": -389.5,
+              "width": 289,
+              "height": 30
+            },
+            "code": "",
+            "visibility": "public",
+            "attributeType": "str",
+            "implementationType": "none",
+            "stateMachineId": "",
+            "quantumCircuitId": ""
+          },
+          "7f575eb3-c289-474d-8f01-b52bcfeb1e83": {
+            "id": "7f575eb3-c289-474d-8f01-b52bcfeb1e83",
+            "name": "BACHELORS_THESIS",
+            "type": "ClassAttribute",
+            "owner": "a81c82f2-f84c-4dd9-866f-a12ac86d9efe",
+            "bounds": {
+              "x": -39.5,
+              "y": -359.5,
+              "width": 289,
+              "height": 30
+            },
+            "code": "",
+            "visibility": "public",
+            "attributeType": "str",
+            "implementationType": "none",
+            "stateMachineId": "",
+            "quantumCircuitId": ""
+          },
+          "937b632c-f4a6-46ac-bd1e-c60b050a985b": {
+            "id": "937b632c-f4a6-46ac-bd1e-c60b050a985b",
+            "name": "MASTERS_THESIS",
+            "type": "ClassAttribute",
+            "owner": "a81c82f2-f84c-4dd9-866f-a12ac86d9efe",
+            "bounds": {
+              "x": -39.5,
+              "y": -329.5,
+              "width": 289,
+              "height": 30
+            },
+            "code": "",
+            "visibility": "public",
+            "attributeType": "str",
+            "implementationType": "none",
+            "stateMachineId": "",
+            "quantumCircuitId": ""
+          },
+          "da43b2f9-201d-41a7-b927-6e96aeb2ccdc": {
+            "id": "da43b2f9-201d-41a7-b927-6e96aeb2ccdc",
+            "name": "ADVANCED_INTERNSHIP",
+            "type": "ClassAttribute",
+            "owner": "a81c82f2-f84c-4dd9-866f-a12ac86d9efe",
+            "bounds": {
+              "x": -39.5,
+              "y": -299.5,
+              "width": 289,
+              "height": 30
+            },
+            "code": "",
+            "visibility": "public",
+            "attributeType": "str",
+            "implementationType": "none",
+            "stateMachineId": "",
+            "quantumCircuitId": ""
+          },
+          "3fb345dc-983b-47ff-b590-86bcf8050e2c": {
+            "id": "3fb345dc-983b-47ff-b590-86bcf8050e2c",
+            "name": "ProjectStatus",
+            "type": "Enumeration",
+            "owner": null,
+            "bounds": {
+              "x": -40,
+              "y": -820,
+              "width": 160,
+              "height": 170
+            },
+            "attributes": [
+              "41880af3-35d4-42ca-9779-ddfced4d3b87",
+              "cc5d5667-e48c-4f5f-b8e2-a4fff9b18626",
+              "9ba9912a-c88e-48ab-b26d-19d4c37be908",
+              "7b04a8ce-74b3-4642-a4ee-e5a906b5b864"
+            ],
+            "methods": []
+          },
+          "41880af3-35d4-42ca-9779-ddfced4d3b87": {
+            "id": "41880af3-35d4-42ca-9779-ddfced4d3b87",
+            "name": "PROPOSED",
+            "type": "ClassAttribute",
+            "owner": "3fb345dc-983b-47ff-b590-86bcf8050e2c",
+            "bounds": {
+              "x": -39.5,
+              "y": -769.5,
+              "width": 159,
+              "height": 30
+            },
+            "code": "",
+            "visibility": "public",
+            "attributeType": "str",
+            "implementationType": "none",
+            "stateMachineId": "",
+            "quantumCircuitId": ""
+          },
+          "cc5d5667-e48c-4f5f-b8e2-a4fff9b18626": {
+            "id": "cc5d5667-e48c-4f5f-b8e2-a4fff9b18626",
+            "name": "REGISTERED",
+            "type": "ClassAttribute",
+            "owner": "3fb345dc-983b-47ff-b590-86bcf8050e2c",
+            "bounds": {
+              "x": -39.5,
+              "y": -739.5,
+              "width": 159,
+              "height": 30
+            },
+            "code": "",
+            "visibility": "public",
+            "attributeType": "str",
+            "implementationType": "none",
+            "stateMachineId": "",
+            "quantumCircuitId": ""
+          },
+          "9ba9912a-c88e-48ab-b26d-19d4c37be908": {
+            "id": "9ba9912a-c88e-48ab-b26d-19d4c37be908",
+            "name": "EVALUATED",
+            "type": "ClassAttribute",
+            "owner": "3fb345dc-983b-47ff-b590-86bcf8050e2c",
+            "bounds": {
+              "x": -39.5,
+              "y": -709.5,
+              "width": 159,
+              "height": 30
+            },
+            "code": "",
+            "visibility": "public",
+            "attributeType": "str",
+            "implementationType": "none",
+            "stateMachineId": "",
+            "quantumCircuitId": ""
+          },
+          "7b04a8ce-74b3-4642-a4ee-e5a906b5b864": {
+            "id": "7b04a8ce-74b3-4642-a4ee-e5a906b5b864",
+            "name": "COMPLETED",
+            "type": "ClassAttribute",
+            "owner": "3fb345dc-983b-47ff-b590-86bcf8050e2c",
+            "bounds": {
+              "x": -39.5,
+              "y": -679.5,
+              "width": 159,
+              "height": 30
+            },
+            "code": "",
+            "visibility": "public",
+            "attributeType": "str",
+            "implementationType": "none",
+            "stateMachineId": "",
+            "quantumCircuitId": ""
+          },
+          "bc72c5b2-9fca-4dea-9131-e75ca5653fa1": {
+            "id": "bc72c5b2-9fca-4dea-9131-e75ca5653fa1",
+            "name": "Appointment",
+            "type": "Class",
+            "owner": null,
+            "bounds": {
+              "x": -990,
+              "y": -210,
+              "width": 200,
+              "height": 340
+            },
+            "attributes": [
+              "4a199980-8336-4282-9c06-291deeaaed52",
+              "d2062d7e-3bf6-4f92-925a-d42d9984613c",
+              "1b81e6da-f479-42fc-a4b6-ac0842468727",
+              "e58a3125-a084-413b-a301-13a05a0d381a",
+              "eac6360a-96b8-46c9-9fa6-95eed33ba823",
+              "36000a34-7b64-465f-8282-2b214171b82b",
+              "909a8791-f30f-420b-9f2e-4d112011ce06",
+              "65a745b8-5336-491a-ba01-1dda31542e63",
+              "9dab25f4-4a52-4300-aaaa-af1c2687e2cf",
+              "fa1ff60b-2ff0-4b51-8551-713a19c983c9"
+            ],
+            "methods": []
+          },
+          "4a199980-8336-4282-9c06-291deeaaed52": {
+            "id": "4a199980-8336-4282-9c06-291deeaaed52",
+            "name": "createdAt",
+            "type": "ClassAttribute",
+            "owner": "bc72c5b2-9fca-4dea-9131-e75ca5653fa1",
+            "bounds": {
+              "x": -989.5,
+              "y": -169.5,
+              "width": 199,
+              "height": 30
+            },
+            "code": "",
+            "visibility": "public",
+            "attributeType": "datetime",
+            "implementationType": "none",
+            "stateMachineId": "",
+            "quantumCircuitId": ""
+          },
+          "d2062d7e-3bf6-4f92-925a-d42d9984613c": {
+            "id": "d2062d7e-3bf6-4f92-925a-d42d9984613c",
+            "name": "updatedAt",
+            "type": "ClassAttribute",
+            "owner": "bc72c5b2-9fca-4dea-9131-e75ca5653fa1",
+            "bounds": {
+              "x": -989.5,
+              "y": -139.5,
+              "width": 199,
+              "height": 30
+            },
+            "code": "",
+            "visibility": "public",
+            "attributeType": "datetime",
+            "implementationType": "none",
+            "stateMachineId": "",
+            "quantumCircuitId": ""
+          },
+          "1b81e6da-f479-42fc-a4b6-ac0842468727": {
+            "id": "1b81e6da-f479-42fc-a4b6-ac0842468727",
+            "name": "createdById",
+            "type": "ClassAttribute",
+            "owner": "bc72c5b2-9fca-4dea-9131-e75ca5653fa1",
+            "bounds": {
+              "x": -989.5,
+              "y": -109.5,
+              "width": 199,
+              "height": 30
+            },
+            "code": "",
+            "visibility": "public",
+            "attributeType": "str",
+            "implementationType": "none",
+            "stateMachineId": "",
+            "quantumCircuitId": ""
+          },
+          "e58a3125-a084-413b-a301-13a05a0d381a": {
+            "id": "e58a3125-a084-413b-a301-13a05a0d381a",
+            "name": "updatedById",
+            "type": "ClassAttribute",
+            "owner": "bc72c5b2-9fca-4dea-9131-e75ca5653fa1",
+            "bounds": {
+              "x": -989.5,
+              "y": -79.5,
+              "width": 199,
+              "height": 30
+            },
+            "code": "",
+            "visibility": "public",
+            "attributeType": "str",
+            "implementationType": "none",
+            "stateMachineId": "",
+            "quantumCircuitId": ""
+          },
+          "eac6360a-96b8-46c9-9fa6-95eed33ba823": {
+            "id": "eac6360a-96b8-46c9-9fa6-95eed33ba823",
+            "name": "title",
+            "type": "ClassAttribute",
+            "owner": "bc72c5b2-9fca-4dea-9131-e75ca5653fa1",
+            "bounds": {
+              "x": -989.5,
+              "y": -49.5,
+              "width": 199,
+              "height": 30
+            },
+            "code": "",
+            "visibility": "public",
+            "attributeType": "str",
+            "implementationType": "none",
+            "stateMachineId": "",
+            "quantumCircuitId": ""
+          },
+          "36000a34-7b64-465f-8282-2b214171b82b": {
+            "id": "36000a34-7b64-465f-8282-2b214171b82b",
+            "name": "description",
+            "type": "ClassAttribute",
+            "owner": "bc72c5b2-9fca-4dea-9131-e75ca5653fa1",
+            "bounds": {
+              "x": -989.5,
+              "y": -19.5,
+              "width": 199,
+              "height": 30
+            },
+            "code": "",
+            "visibility": "public",
+            "attributeType": "str",
+            "implementationType": "none",
+            "stateMachineId": "",
+            "quantumCircuitId": ""
+          },
+          "909a8791-f30f-420b-9f2e-4d112011ce06": {
+            "id": "909a8791-f30f-420b-9f2e-4d112011ce06",
+            "name": "type",
+            "type": "ClassAttribute",
+            "owner": "bc72c5b2-9fca-4dea-9131-e75ca5653fa1",
+            "bounds": {
+              "x": -989.5,
+              "y": 10.5,
+              "width": 199,
+              "height": 30
+            },
+            "code": "",
+            "visibility": "public",
+            "attributeType": "AppointmentType",
+            "implementationType": "none",
+            "stateMachineId": "",
+            "quantumCircuitId": ""
+          },
+          "65a745b8-5336-491a-ba01-1dda31542e63": {
+            "id": "65a745b8-5336-491a-ba01-1dda31542e63",
+            "name": "start_time",
+            "type": "ClassAttribute",
+            "owner": "bc72c5b2-9fca-4dea-9131-e75ca5653fa1",
+            "bounds": {
+              "x": -989.5,
+              "y": 40.5,
+              "width": 199,
+              "height": 30
+            },
+            "code": "",
+            "visibility": "public",
+            "attributeType": "datetime",
+            "implementationType": "none",
+            "stateMachineId": "",
+            "quantumCircuitId": ""
+          },
+          "9dab25f4-4a52-4300-aaaa-af1c2687e2cf": {
+            "id": "9dab25f4-4a52-4300-aaaa-af1c2687e2cf",
+            "name": "end_time",
+            "type": "ClassAttribute",
+            "owner": "bc72c5b2-9fca-4dea-9131-e75ca5653fa1",
+            "bounds": {
+              "x": -989.5,
+              "y": 70.5,
+              "width": 199,
+              "height": 30
+            },
+            "code": "",
+            "visibility": "public",
+            "attributeType": "datetime",
+            "implementationType": "none",
+            "stateMachineId": "",
+            "quantumCircuitId": ""
+          },
+          "fa1ff60b-2ff0-4b51-8551-713a19c983c9": {
+            "id": "fa1ff60b-2ff0-4b51-8551-713a19c983c9",
+            "name": "id",
+            "type": "ClassAttribute",
+            "owner": "bc72c5b2-9fca-4dea-9131-e75ca5653fa1",
+            "bounds": {
+              "x": -989.5,
+              "y": 100.5,
+              "width": 199,
+              "height": 30
+            },
+            "code": "",
+            "visibility": "public",
+            "attributeType": "int",
+            "implementationType": "none",
+            "stateMachineId": "",
+            "quantumCircuitId": ""
+          },
+          "418e325a-194c-41b5-85fa-e03a5182f8a2": {
+            "id": "418e325a-194c-41b5-85fa-e03a5182f8a2",
+            "name": "Comment",
+            "type": "Class",
+            "owner": null,
+            "bounds": {
+              "x": -750,
+              "y": -180,
+              "width": 180,
+              "height": 190
+            },
+            "attributes": [
+              "6f458d3d-ed49-4999-8a0b-cb4b851f4dc9",
+              "0b17ab0f-d4bc-45ff-b2dd-239b042583cd",
+              "90b225d4-deec-43df-b644-67ad064c7e8f",
+              "cfb41106-d462-47c2-82b5-aa1416c25995",
+              "c4637791-87cf-48cf-a35e-1a68c87335b4"
+            ],
+            "methods": []
+          },
+          "6f458d3d-ed49-4999-8a0b-cb4b851f4dc9": {
+            "id": "6f458d3d-ed49-4999-8a0b-cb4b851f4dc9",
+            "name": "id",
+            "type": "ClassAttribute",
+            "owner": "418e325a-194c-41b5-85fa-e03a5182f8a2",
+            "bounds": {
+              "x": -749.5,
+              "y": -139.5,
+              "width": 179,
+              "height": 30
+            },
+            "code": "",
+            "visibility": "public",
+            "attributeType": "int",
+            "implementationType": "none",
+            "stateMachineId": "",
+            "quantumCircuitId": ""
+          },
+          "0b17ab0f-d4bc-45ff-b2dd-239b042583cd": {
+            "id": "0b17ab0f-d4bc-45ff-b2dd-239b042583cd",
+            "name": "content",
+            "type": "ClassAttribute",
+            "owner": "418e325a-194c-41b5-85fa-e03a5182f8a2",
+            "bounds": {
+              "x": -749.5,
+              "y": -109.5,
+              "width": 179,
+              "height": 30
+            },
+            "code": "",
+            "visibility": "public",
+            "attributeType": "str",
+            "implementationType": "none",
+            "stateMachineId": "",
+            "quantumCircuitId": ""
+          },
+          "90b225d4-deec-43df-b644-67ad064c7e8f": {
+            "id": "90b225d4-deec-43df-b644-67ad064c7e8f",
+            "name": "isPublic",
+            "type": "ClassAttribute",
+            "owner": "418e325a-194c-41b5-85fa-e03a5182f8a2",
+            "bounds": {
+              "x": -749.5,
+              "y": -79.5,
+              "width": 179,
+              "height": 30
+            },
+            "code": "",
+            "visibility": "public",
+            "attributeType": "bool",
+            "implementationType": "none",
+            "stateMachineId": "",
+            "quantumCircuitId": ""
+          },
+          "cfb41106-d462-47c2-82b5-aa1416c25995": {
+            "id": "cfb41106-d462-47c2-82b5-aa1416c25995",
+            "name": "createdAt",
+            "type": "ClassAttribute",
+            "owner": "418e325a-194c-41b5-85fa-e03a5182f8a2",
+            "bounds": {
+              "x": -749.5,
+              "y": -49.5,
+              "width": 179,
+              "height": 30
+            },
+            "code": "",
+            "visibility": "public",
+            "attributeType": "datetime",
+            "implementationType": "none",
+            "stateMachineId": "",
+            "quantumCircuitId": ""
+          },
+          "c4637791-87cf-48cf-a35e-1a68c87335b4": {
+            "id": "c4637791-87cf-48cf-a35e-1a68c87335b4",
+            "name": "updatedAt",
+            "type": "ClassAttribute",
+            "owner": "418e325a-194c-41b5-85fa-e03a5182f8a2",
+            "bounds": {
+              "x": -749.5,
+              "y": -19.5,
+              "width": 179,
+              "height": 30
+            },
+            "code": "",
+            "visibility": "public",
+            "attributeType": "datetime",
+            "implementationType": "none",
+            "stateMachineId": "",
+            "quantumCircuitId": ""
+          },
+          "990faa83-d692-48e5-b048-f1bf1adbecda": {
+            "id": "990faa83-d692-48e5-b048-f1bf1adbecda",
+            "name": "AppointmentType",
+            "type": "Enumeration",
+            "owner": null,
+            "bounds": {
+              "x": 140,
+              "y": -690,
+              "width": 160,
+              "height": 170
+            },
+            "attributes": [
+              "91c76c21-6453-4c5a-a57c-0c5f3abeccef",
+              "8885a829-b17e-45da-9052-78c21b2da370",
+              "a8333e84-ae62-4d09-adb6-aaae8e231f5f",
+              "8ee061f0-c6aa-4687-a25d-bd38c15b73c0"
+            ],
+            "methods": []
+          },
+          "91c76c21-6453-4c5a-a57c-0c5f3abeccef": {
+            "id": "91c76c21-6453-4c5a-a57c-0c5f3abeccef",
+            "name": "DEADLINE",
+            "type": "ClassAttribute",
+            "owner": "990faa83-d692-48e5-b048-f1bf1adbecda",
+            "bounds": {
+              "x": 140.5,
+              "y": -639.5,
+              "width": 159,
+              "height": 30
+            },
+            "code": "",
+            "visibility": "public",
+            "attributeType": "str",
+            "implementationType": "none",
+            "stateMachineId": "",
+            "quantumCircuitId": ""
+          },
+          "8885a829-b17e-45da-9052-78c21b2da370": {
+            "id": "8885a829-b17e-45da-9052-78c21b2da370",
+            "name": "MEETING",
+            "type": "ClassAttribute",
+            "owner": "990faa83-d692-48e5-b048-f1bf1adbecda",
+            "bounds": {
+              "x": 140.5,
+              "y": -609.5,
+              "width": 159,
+              "height": 30
+            },
+            "code": "",
+            "visibility": "public",
+            "attributeType": "str",
+            "implementationType": "none",
+            "stateMachineId": "",
+            "quantumCircuitId": ""
+          },
+          "a8333e84-ae62-4d09-adb6-aaae8e231f5f": {
+            "id": "a8333e84-ae62-4d09-adb6-aaae8e231f5f",
+            "name": "GROUP_MEETING",
+            "type": "ClassAttribute",
+            "owner": "990faa83-d692-48e5-b048-f1bf1adbecda",
+            "bounds": {
+              "x": 140.5,
+              "y": -579.5,
+              "width": 159,
+              "height": 30
+            },
+            "code": "",
+            "visibility": "public",
+            "attributeType": "str",
+            "implementationType": "none",
+            "stateMachineId": "",
+            "quantumCircuitId": ""
+          },
+          "8ee061f0-c6aa-4687-a25d-bd38c15b73c0": {
+            "id": "8ee061f0-c6aa-4687-a25d-bd38c15b73c0",
+            "name": "TEMPLATE",
+            "type": "ClassAttribute",
+            "owner": "990faa83-d692-48e5-b048-f1bf1adbecda",
+            "bounds": {
+              "x": 140.5,
+              "y": -549.5,
+              "width": 159,
+              "height": 30
+            },
+            "code": "",
+            "visibility": "public",
+            "attributeType": "str",
+            "implementationType": "none",
+            "stateMachineId": "",
+            "quantumCircuitId": ""
+          },
+          "a0fad90b-8f2f-4b44-a7b9-b9130099ed37": {
+            "id": "a0fad90b-8f2f-4b44-a7b9-b9130099ed37",
+            "name": "ProjectMembership",
+            "type": "Class",
+            "owner": null,
+            "bounds": {
+              "x": -330,
+              "y": -200,
+              "width": 170,
+              "height": 100
+            },
+            "attributes": [
+              "30ad6376-01eb-4c97-87dc-4cd5dc59a694",
+              "ba4d5d16-d3c2-438f-b1aa-e83f968344fe"
+            ],
+            "methods": []
+          },
+          "30ad6376-01eb-4c97-87dc-4cd5dc59a694": {
+            "id": "30ad6376-01eb-4c97-87dc-4cd5dc59a694",
+            "name": "id",
+            "type": "ClassAttribute",
+            "owner": "a0fad90b-8f2f-4b44-a7b9-b9130099ed37",
+            "bounds": {
+              "x": -329.5,
+              "y": -159.5,
+              "width": 169,
+              "height": 30
+            },
+            "code": "",
+            "visibility": "public",
+            "attributeType": "int",
+            "implementationType": "none",
+            "stateMachineId": "",
+            "quantumCircuitId": ""
+          },
+          "ba4d5d16-d3c2-438f-b1aa-e83f968344fe": {
+            "id": "ba4d5d16-d3c2-438f-b1aa-e83f968344fe",
+            "name": "role",
+            "type": "ClassAttribute",
+            "owner": "a0fad90b-8f2f-4b44-a7b9-b9130099ed37",
+            "bounds": {
+              "x": -329.5,
+              "y": -129.5,
+              "width": 169,
+              "height": 30
+            },
+            "code": "",
+            "visibility": "public",
+            "attributeType": "ProjectRole",
+            "implementationType": "none",
+            "stateMachineId": "",
+            "quantumCircuitId": ""
+          },
+          "d3923569-4276-4268-84e6-e395fada3644": {
+            "id": "d3923569-4276-4268-84e6-e395fada3644",
+            "name": "UserStatus",
+            "type": "Enumeration",
+            "owner": null,
+            "bounds": {
+              "x": -40,
+              "y": -250,
+              "width": 160,
+              "height": 110
+            },
+            "attributes": [
+              "d3973e0e-a8ea-40e1-a04e-0578d885ebf1",
+              "78693944-ae62-4620-bb2b-970369016079"
+            ],
+            "methods": []
+          },
+          "d3973e0e-a8ea-40e1-a04e-0578d885ebf1": {
+            "id": "d3973e0e-a8ea-40e1-a04e-0578d885ebf1",
+            "name": "ACTIVE",
+            "type": "ClassAttribute",
+            "owner": "d3923569-4276-4268-84e6-e395fada3644",
+            "bounds": {
+              "x": -39.5,
+              "y": -199.5,
+              "width": 159,
+              "height": 30
+            },
+            "code": "",
+            "visibility": "public",
+            "attributeType": "str",
+            "implementationType": "none",
+            "stateMachineId": "",
+            "quantumCircuitId": ""
+          },
+          "78693944-ae62-4620-bb2b-970369016079": {
+            "id": "78693944-ae62-4620-bb2b-970369016079",
+            "name": "INACTIVE",
+            "type": "ClassAttribute",
+            "owner": "d3923569-4276-4268-84e6-e395fada3644",
+            "bounds": {
+              "x": -39.5,
+              "y": -169.5,
+              "width": 159,
+              "height": 30
+            },
+            "code": "",
+            "visibility": "public",
+            "attributeType": "str",
+            "implementationType": "none",
+            "stateMachineId": "",
+            "quantumCircuitId": ""
+          }
+        },
+        "relationships": {
+          "7e77dd59-da28-4487-ad5f-ff148cb4111d": {
+            "id": "7e77dd59-da28-4487-ad5f-ff148cb4111d",
+            "name": "",
+            "type": "ClassBidirectional",
+            "owner": null,
+            "bounds": {
+              "x": -730,
+              "y": -635,
+              "width": 80,
+              "height": 48.66666603088379
+            },
+            "path": [
+              {
+                "x": 0,
+                "y": 10
+              },
+              {
+                "x": 80,
+                "y": 10
+              }
+            ],
+            "source": {
+              "direction": "Upright",
+              "element": "7db6d44f-f245-4c8b-bedb-50de4a04c1d0",
+              "multiplicity": "0..*",
+              "role": ""
+            },
+            "target": {
+              "direction": "Left",
+              "element": "df7eb41f-1dae-4d5d-8b31-3e01057337cc",
+              "multiplicity": "0..*",
+              "role": ""
+            },
+            "isManuallyLayouted": false
+          },
+          "0a9f15e4-0261-4af4-9366-a7c584712595": {
+            "id": "0a9f15e4-0261-4af4-9366-a7c584712595",
+            "name": "",
+            "type": "ClassUnidirectional",
+            "owner": null,
+            "bounds": {
+              "x": -1005,
+              "y": -682.5,
+              "width": 144.03333282470703,
+              "height": 482.1666660308838
+            },
+            "path": [
+              {
+                "x": 115,
+                "y": 472.5
+              },
+              {
+                "x": 115,
+                "y": 432.5
+              },
+              {
+                "x": 0,
+                "y": 432.5
+              },
+              {
+                "x": 0,
+                "y": 10
+              },
+              {
+                "x": 65,
+                "y": 10
+              }
+            ],
+            "source": {
+              "direction": "Up",
+              "element": "bc72c5b2-9fca-4dea-9131-e75ca5653fa1",
+              "multiplicity": "0..*",
+              "role": ""
+            },
+            "target": {
+              "direction": "Upleft",
+              "element": "7db6d44f-f245-4c8b-bedb-50de4a04c1d0",
+              "multiplicity": "1",
+              "role": ""
+            },
+            "isManuallyLayouted": false
+          },
+          "155d6806-162a-40ee-8815-93064d4d1abc": {
+            "id": "155d6806-162a-40ee-8815-93064d4d1abc",
+            "name": "",
+            "type": "ClassComposition",
+            "owner": null,
+            "bounds": {
+              "x": -787.5,
+              "y": -530,
+              "width": 156.53333282470703,
+              "height": 359.6666660308838
+            },
+            "path": [
+              {
+                "x": 127.5,
+                "y": 350
+              },
+              {
+                "x": 127.5,
+                "y": 175
+              },
+              {
+                "x": 5,
+                "y": 175
+              },
+              {
+                "x": 5,
+                "y": 0
+              }
+            ],
+            "source": {
+              "direction": "Up",
+              "element": "418e325a-194c-41b5-85fa-e03a5182f8a2",
+              "multiplicity": "0..*",
+              "role": ""
+            },
+            "target": {
+              "direction": "Bottomright",
+              "element": "7db6d44f-f245-4c8b-bedb-50de4a04c1d0",
+              "multiplicity": "1",
+              "role": ""
+            },
+            "isManuallyLayouted": false
+          },
+          "43f01f4c-d51f-42b3-95da-f15fb2fec595": {
+            "id": "43f01f4c-d51f-42b3-95da-f15fb2fec595",
+            "name": "",
+            "type": "ClassBidirectional",
+            "owner": null,
+            "bounds": {
+              "x": -570,
+              "y": -520,
+              "width": 188.89999961853027,
+              "height": 426.1666660308838
+            },
+            "path": [
+              {
+                "x": 0,
+                "y": 387.5
+              },
+              {
+                "x": 175,
+                "y": 387.5
+              },
+              {
+                "x": 175,
+                "y": 0
+              }
+            ],
+            "source": {
+              "direction": "Upright",
+              "element": "418e325a-194c-41b5-85fa-e03a5182f8a2",
+              "multiplicity": "0..*",
+              "role": ""
+            },
+            "target": {
+              "direction": "Down",
+              "element": "df7eb41f-1dae-4d5d-8b31-3e01057337cc",
+              "multiplicity": "1",
+              "role": ""
+            },
+            "isManuallyLayouted": false
+          },
+          "rel_3qn5408n5_mkr1v5jq_u1d": {
+            "id": "rel_3qn5408n5_mkr1v5jq_u1d",
+            "name": "memberOf",
+            "type": "ClassBidirectional",
+            "owner": null,
+            "bounds": {
+              "x": -370,
+              "y": -685,
+              "width": 314.20796966552734,
+              "height": 574.3333320617676
+            },
+            "path": [
+              {
+                "x": 40,
+                "y": 535
+              },
+              {
+                "x": 0,
+                "y": 535
+              },
+              {
+                "x": 0,
+                "y": 445
+              },
+              {
+                "x": 270,
+                "y": 445
+              },
+              {
+                "x": 270,
+                "y": 10
+              },
+              {
+                "x": 230,
+                "y": 10
+              }
+            ],
+            "source": {
+              "direction": "Left",
+              "element": "a0fad90b-8f2f-4b44-a7b9-b9130099ed37",
+              "multiplicity": "*",
+              "role": "",
+              "bounds": {
+                "x": 0,
+                "y": 0,
+                "width": 0,
+                "height": 0
+              }
+            },
+            "target": {
+              "direction": "Right",
+              "element": "df7eb41f-1dae-4d5d-8b31-3e01057337cc",
+              "multiplicity": "1",
+              "role": "memberOf",
+              "bounds": {
+                "x": 0,
+                "y": 0,
+                "width": 0,
+                "height": 0
+              }
+            },
+            "isManuallyLayouted": true
+          }
+        },
+        "assessments": {}
+      },
+      "lastUpdate": "2026-01-29T17:16:16.821Z",
+      "description": "Imported from model.py"
+    },
+    "ObjectDiagram": {
+      "id": "99af4fe0-88b8-4908-babd-26b596ec660e",
+      "title": "Object Diagram",
+      "model": {
+        "version": "3.0.0",
+        "type": "ObjectDiagram",
+        "size": {
+          "width": 1400,
+          "height": 740
+        },
+        "elements": {},
+        "relationships": {},
+        "interactive": {
+          "elements": {},
+          "relationships": {}
+        },
+        "assessments": {}
+      },
+      "lastUpdate": "2026-01-23T14:02:59.900Z"
+    },
+    "StateMachineDiagram": {
+      "id": "7ae141f3-6c8d-4ebb-97c4-bc47df56d11e",
+      "title": "State Machine Diagram",
+      "model": {
+        "version": "3.0.0",
+        "type": "StateMachineDiagram",
+        "size": {
+          "width": 1400,
+          "height": 740
+        },
+        "elements": {},
+        "relationships": {},
+        "interactive": {
+          "elements": {},
+          "relationships": {}
+        },
+        "assessments": {}
+      },
+      "lastUpdate": "2026-01-23T14:02:59.900Z"
+    },
+    "AgentDiagram": {
+      "id": "038952c6-0756-4729-b4bd-78102f3b6f4d",
+      "title": "Agent Diagram",
+      "model": {
+        "version": "3.0.0",
+        "type": "AgentDiagram",
+        "size": {
+          "width": 1400,
+          "height": 740
+        },
+        "elements": {},
+        "relationships": {},
+        "interactive": {
+          "elements": {},
+          "relationships": {}
+        },
+        "assessments": {}
+      },
+      "lastUpdate": "2026-01-23T14:02:59.900Z"
+    },
+    "QuantumCircuitDiagram": {
+      "id": "dd68470d-c16c-406f-99a8-773b95f1eeb9",
+      "title": "Quantum Circuit",
+      "model": {
+        "cols": [],
+        "gates": [],
+        "gateMetadata": {},
+        "classicalBitCount": 0,
+        "version": "1.0.0"
+      },
+      "lastUpdate": "2026-01-29T15:29:11.392Z"
+    },
+    "GUINoCodeDiagram": {
+      "id": "6bee50cf-2cc6-477f-a175-3234dac6464f",
+      "title": "GUI Diagram",
+      "model": {
+        "pages": [
+          {
+            "name": "Project",
+            "frames": [
+              {
+                "component": {
+                  "type": "wrapper",
+                  "stylable": [
+                    "background",
+                    "background-color",
+                    "background-image",
+                    "background-repeat",
+                    "background-attachment",
+                    "background-position",
+                    "background-size"
+                  ],
+                  "components": [
+                    {
+                      "attributes": {
+                        "id": "inqeu"
+                      },
+                      "components": [
+                        {
+                          "tagName": "nav",
+                          "attributes": {
+                            "id": "iotij"
+                          },
+                          "components": [
+                            {
+                              "tagName": "h2",
+                              "type": "text",
+                              "attributes": {
+                                "id": "i5obq"
+                              },
+                              "components": [
+                                {
+                                  "type": "textnode",
+                                  "content": "BESSER"
+                                }
+                              ]
+                            },
+                            {
+                              "attributes": {
+                                "id": "iamxb"
+                              },
+                              "components": [
+                                {
+                                  "type": "link",
+                                  "attributes": {
+                                    "href": "/project",
+                                    "id": "imalu"
+                                  },
+                                  "components": [
+                                    {
+                                      "type": "textnode",
+                                      "content": "Project"
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "link",
+                                  "attributes": {
+                                    "href": "/user",
+                                    "id": "i3hkv"
+                                  },
+                                  "components": [
+                                    {
+                                      "type": "textnode",
+                                      "content": "User"
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "link",
+                                  "attributes": {
+                                    "href": "/appointment",
+                                    "id": "iwl6w"
+                                  },
+                                  "components": [
+                                    {
+                                      "type": "textnode",
+                                      "content": "Appointment"
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "link",
+                                  "attributes": {
+                                    "href": "/comment",
+                                    "id": "ijsom"
+                                  },
+                                  "components": [
+                                    {
+                                      "type": "textnode",
+                                      "content": "Comment"
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "link",
+                                  "attributes": {
+                                    "href": "/projectmembership",
+                                    "id": "ic208"
+                                  },
+                                  "components": [
+                                    {
+                                      "type": "textnode",
+                                      "content": "ProjectMembership"
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "type": "text",
+                              "attributes": {
+                                "id": "inc7b"
+                              },
+                              "components": [
+                                {
+                                  "type": "textnode",
+                                  "content": "\u00a9 2025 BESSER. All rights reserved."
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "tagName": "main",
+                          "attributes": {
+                            "id": "iqv37"
+                          },
+                          "components": [
+                            {
+                              "tagName": "h1",
+                              "type": "text",
+                              "attributes": {
+                                "id": "itgrn"
+                              },
+                              "components": [
+                                {
+                                  "type": "textnode",
+                                  "content": "Project"
+                                }
+                              ]
+                            },
+                            {
+                              "tagName": "p",
+                              "type": "text",
+                              "attributes": {
+                                "id": "i4dm9"
+                              },
+                              "components": [
+                                {
+                                  "type": "textnode",
+                                  "content": "Manage Project data"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "table",
+                              "style": "",
+                              "attributes": {
+                                "chart-color": "#2c3e50",
+                                "chart-title": "Project List",
+                                "data-source": "7db6d44f-f245-4c8b-bedb-50de4a04c1d0",
+                                "show-header": "true",
+                                "striped-rows": "false",
+                                "show-pagination": "true",
+                                "rows-per-page": "5",
+                                "action-buttons": "true",
+                                "columns": [
+                                  {
+                                    "field": "name",
+                                    "label": "Name",
+                                    "columnType": "field",
+                                    "_expanded": false
+                                  },
+                                  {
+                                    "field": "type",
+                                    "label": "Type",
+                                    "columnType": "field",
+                                    "_expanded": false
+                                  },
+                                  {
+                                    "field": "status",
+                                    "label": "Status",
+                                    "columnType": "field",
+                                    "_expanded": false
+                                  },
+                                  {
+                                    "field": "description",
+                                    "label": "Description",
+                                    "columnType": "field",
+                                    "_expanded": false
+                                  },
+                                  {
+                                    "field": "id",
+                                    "label": "Id",
+                                    "columnType": "field",
+                                    "_expanded": false
+                                  },
+                                  {
+                                    "field": "df7eb41f-1dae-4d5d-8b31-3e01057337cc",
+                                    "label": "Df7eb41f-1dae-4d5d-8b31-3e01057337cc",
+                                    "columnType": "lookup",
+                                    "lookupEntity": "df7eb41f-1dae-4d5d-8b31-3e01057337cc",
+                                    "lookupField": "email",
+                                    "_expanded": false
+                                  },
+                                  {
+                                    "field": "bc72c5b2-9fca-4dea-9131-e75ca5653fa1",
+                                    "label": "Bc72c5b2-9fca-4dea-9131-E75ca5653fa1",
+                                    "columnType": "lookup",
+                                    "lookupEntity": "bc72c5b2-9fca-4dea-9131-e75ca5653fa1",
+                                    "lookupField": "createdAt",
+                                    "_expanded": false
+                                  },
+                                  {
+                                    "field": "418e325a-194c-41b5-85fa-e03a5182f8a2",
+                                    "label": "418e325a-194c-41b5-85fa-E03a5182f8a2",
+                                    "columnType": "lookup",
+                                    "lookupEntity": "418e325a-194c-41b5-85fa-e03a5182f8a2",
+                                    "lookupField": "id",
+                                    "_expanded": false
+                                  }
+                                ],
+                                "id": "table-project-0",
+                                "filter": ""
+                              },
+                              "chart-title": "Project List",
+                              "data-source": "7db6d44f-f245-4c8b-bedb-50de4a04c1d0",
+                              "show-header": "true",
+                              "striped-rows": "false",
+                              "show-pagination": "true",
+                              "action-buttons": "true",
+                              "rows-per-page": "5",
+                              "filter": "",
+                              "columns": [
+                                {
+                                  "field": "name",
+                                  "label": "Name",
+                                  "columnType": "field",
+                                  "_expanded": false
+                                },
+                                {
+                                  "field": "type",
+                                  "label": "Type",
+                                  "columnType": "field",
+                                  "_expanded": false
+                                },
+                                {
+                                  "field": "status",
+                                  "label": "Status",
+                                  "columnType": "field",
+                                  "_expanded": false
+                                },
+                                {
+                                  "field": "description",
+                                  "label": "Description",
+                                  "columnType": "field",
+                                  "_expanded": false
+                                },
+                                {
+                                  "field": "id",
+                                  "label": "Id",
+                                  "columnType": "field",
+                                  "_expanded": false
+                                },
+                                {
+                                  "field": "df7eb41f-1dae-4d5d-8b31-3e01057337cc",
+                                  "label": "Df7eb41f-1dae-4d5d-8b31-3e01057337cc",
+                                  "columnType": "lookup",
+                                  "lookupEntity": "df7eb41f-1dae-4d5d-8b31-3e01057337cc",
+                                  "lookupField": "email",
+                                  "_expanded": false
+                                },
+                                {
+                                  "field": "bc72c5b2-9fca-4dea-9131-e75ca5653fa1",
+                                  "label": "Bc72c5b2-9fca-4dea-9131-E75ca5653fa1",
+                                  "columnType": "lookup",
+                                  "lookupEntity": "bc72c5b2-9fca-4dea-9131-e75ca5653fa1",
+                                  "lookupField": "createdAt",
+                                  "_expanded": false
+                                },
+                                {
+                                  "field": "418e325a-194c-41b5-85fa-e03a5182f8a2",
+                                  "label": "418e325a-194c-41b5-85fa-E03a5182f8a2",
+                                  "columnType": "lookup",
+                                  "lookupEntity": "418e325a-194c-41b5-85fa-e03a5182f8a2",
+                                  "lookupField": "id",
+                                  "_expanded": false
+                                }
+                              ],
+                              "components": [
+                                {
+                                  "type": "tbody",
+                                  "draggable": [
+                                    "table"
+                                  ],
+                                  "droppable": [
+                                    "tr"
+                                  ],
+                                  "components": [
+                                    {
+                                      "type": "row",
+                                      "draggable": [
+                                        "thead",
+                                        "tbody",
+                                        "tfoot"
+                                      ],
+                                      "droppable": [
+                                        "th",
+                                        "td"
+                                      ],
+                                      "classes": [
+                                        "row"
+                                      ],
+                                      "components": [
+                                        {
+                                          "type": "cell",
+                                          "draggable": [
+                                            "tr"
+                                          ],
+                                          "classes": [
+                                            "cell"
+                                          ]
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ],
+                              "chart-color": "#2c3e50"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ],
+                  "head": {
+                    "type": "head"
+                  },
+                  "docEl": {
+                    "tagName": "html"
+                  }
+                },
+                "id": "6jDsemh1WoQwD3e8"
+              }
+            ],
+            "id": "page-project-0",
+            "route_path": "/project"
+          },
+          {
+            "name": "User",
+            "frames": [
+              {
+                "component": {
+                  "type": "wrapper",
+                  "stylable": [
+                    "background",
+                    "background-color",
+                    "background-image",
+                    "background-repeat",
+                    "background-attachment",
+                    "background-position",
+                    "background-size"
+                  ],
+                  "components": [
+                    {
+                      "attributes": {
+                        "id": "iiq9e"
+                      },
+                      "components": [
+                        {
+                          "tagName": "nav",
+                          "attributes": {
+                            "id": "i42c2"
+                          },
+                          "components": [
+                            {
+                              "tagName": "h2",
+                              "type": "text",
+                              "attributes": {
+                                "id": "iymo6"
+                              },
+                              "components": [
+                                {
+                                  "type": "textnode",
+                                  "content": "BESSER"
+                                }
+                              ]
+                            },
+                            {
+                              "attributes": {
+                                "id": "ihldi"
+                              },
+                              "components": [
+                                {
+                                  "type": "link",
+                                  "attributes": {
+                                    "href": "/project",
+                                    "id": "ilmn6"
+                                  },
+                                  "components": [
+                                    {
+                                      "type": "textnode",
+                                      "content": "Project"
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "link",
+                                  "attributes": {
+                                    "href": "/user",
+                                    "id": "i0hak"
+                                  },
+                                  "components": [
+                                    {
+                                      "type": "textnode",
+                                      "content": "User"
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "link",
+                                  "attributes": {
+                                    "href": "/appointment",
+                                    "id": "i8cvh"
+                                  },
+                                  "components": [
+                                    {
+                                      "type": "textnode",
+                                      "content": "Appointment"
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "link",
+                                  "attributes": {
+                                    "href": "/comment",
+                                    "id": "iuc59"
+                                  },
+                                  "components": [
+                                    {
+                                      "type": "textnode",
+                                      "content": "Comment"
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "link",
+                                  "attributes": {
+                                    "href": "/projectmembership",
+                                    "id": "ihzpg"
+                                  },
+                                  "components": [
+                                    {
+                                      "type": "textnode",
+                                      "content": "ProjectMembership"
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "type": "text",
+                              "attributes": {
+                                "id": "ismmh"
+                              },
+                              "components": [
+                                {
+                                  "type": "textnode",
+                                  "content": "\u00a9 2025 BESSER. All rights reserved."
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "tagName": "main",
+                          "attributes": {
+                            "id": "i9cm9"
+                          },
+                          "components": [
+                            {
+                              "tagName": "h1",
+                              "type": "text",
+                              "attributes": {
+                                "id": "is3nu"
+                              },
+                              "components": [
+                                {
+                                  "type": "textnode",
+                                  "content": "User"
+                                }
+                              ]
+                            },
+                            {
+                              "tagName": "p",
+                              "type": "text",
+                              "attributes": {
+                                "id": "iejn7"
+                              },
+                              "components": [
+                                {
+                                  "type": "textnode",
+                                  "content": "Manage User data"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "table",
+                              "style": "",
+                              "attributes": {
+                                "chart-color": "#2c3e50",
+                                "chart-title": "User List",
+                                "data-source": "df7eb41f-1dae-4d5d-8b31-3e01057337cc",
+                                "show-header": "true",
+                                "striped-rows": "false",
+                                "show-pagination": "true",
+                                "rows-per-page": "5",
+                                "action-buttons": "true",
+                                "columns": [
+                                  {
+                                    "field": "email",
+                                    "label": "Email",
+                                    "columnType": "field",
+                                    "_expanded": false
+                                  },
+                                  {
+                                    "field": "username",
+                                    "label": "Username",
+                                    "columnType": "field",
+                                    "_expanded": false
+                                  },
+                                  {
+                                    "field": "role",
+                                    "label": "Role",
+                                    "columnType": "field",
+                                    "_expanded": false
+                                  },
+                                  {
+                                    "field": "status",
+                                    "label": "Status",
+                                    "columnType": "field",
+                                    "_expanded": false
+                                  },
+                                  {
+                                    "field": "passwordHash",
+                                    "label": "PasswordHash",
+                                    "columnType": "field",
+                                    "_expanded": false
+                                  },
+                                  {
+                                    "field": "name",
+                                    "label": "Name",
+                                    "columnType": "field",
+                                    "_expanded": false
+                                  },
+                                  {
+                                    "field": "created_at",
+                                    "label": "Created At",
+                                    "columnType": "field",
+                                    "_expanded": false
+                                  },
+                                  {
+                                    "field": "updated_at",
+                                    "label": "Updated At",
+                                    "columnType": "field",
+                                    "_expanded": false
+                                  },
+                                  {
+                                    "field": "id",
+                                    "label": "Id",
+                                    "columnType": "field",
+                                    "_expanded": false
+                                  },
+                                  {
+                                    "field": "7db6d44f-f245-4c8b-bedb-50de4a04c1d0",
+                                    "label": "7db6d44f-F245-4c8b-Bedb-50de4a04c1d0",
+                                    "columnType": "lookup",
+                                    "lookupEntity": "7db6d44f-f245-4c8b-bedb-50de4a04c1d0",
+                                    "lookupField": "name",
+                                    "_expanded": false
+                                  },
+                                  {
+                                    "field": "418e325a-194c-41b5-85fa-e03a5182f8a2",
+                                    "label": "418e325a-194c-41b5-85fa-E03a5182f8a2",
+                                    "columnType": "lookup",
+                                    "lookupEntity": "418e325a-194c-41b5-85fa-e03a5182f8a2",
+                                    "lookupField": "id",
+                                    "_expanded": false
+                                  },
+                                  {
+                                    "field": "a0fad90b-8f2f-4b44-a7b9-b9130099ed37",
+                                    "label": "A0fad90b-8f2f-4b44-A7b9-B9130099ed37",
+                                    "columnType": "lookup",
+                                    "lookupEntity": "a0fad90b-8f2f-4b44-a7b9-b9130099ed37",
+                                    "lookupField": "id",
+                                    "_expanded": false
+                                  }
+                                ],
+                                "id": "table-user-1",
+                                "filter": ""
+                              },
+                              "chart-title": "User List",
+                              "data-source": "df7eb41f-1dae-4d5d-8b31-3e01057337cc",
+                              "show-header": "true",
+                              "striped-rows": "false",
+                              "show-pagination": "true",
+                              "action-buttons": "true",
+                              "rows-per-page": "5",
+                              "filter": "",
+                              "columns": [
+                                {
+                                  "field": "email",
+                                  "label": "Email",
+                                  "columnType": "field",
+                                  "_expanded": false
+                                },
+                                {
+                                  "field": "username",
+                                  "label": "Username",
+                                  "columnType": "field",
+                                  "_expanded": false
+                                },
+                                {
+                                  "field": "role",
+                                  "label": "Role",
+                                  "columnType": "field",
+                                  "_expanded": false
+                                },
+                                {
+                                  "field": "status",
+                                  "label": "Status",
+                                  "columnType": "field",
+                                  "_expanded": false
+                                },
+                                {
+                                  "field": "passwordHash",
+                                  "label": "PasswordHash",
+                                  "columnType": "field",
+                                  "_expanded": false
+                                },
+                                {
+                                  "field": "name",
+                                  "label": "Name",
+                                  "columnType": "field",
+                                  "_expanded": false
+                                },
+                                {
+                                  "field": "created_at",
+                                  "label": "Created At",
+                                  "columnType": "field",
+                                  "_expanded": false
+                                },
+                                {
+                                  "field": "updated_at",
+                                  "label": "Updated At",
+                                  "columnType": "field",
+                                  "_expanded": false
+                                },
+                                {
+                                  "field": "id",
+                                  "label": "Id",
+                                  "columnType": "field",
+                                  "_expanded": false
+                                },
+                                {
+                                  "field": "7db6d44f-f245-4c8b-bedb-50de4a04c1d0",
+                                  "label": "7db6d44f-F245-4c8b-Bedb-50de4a04c1d0",
+                                  "columnType": "lookup",
+                                  "lookupEntity": "7db6d44f-f245-4c8b-bedb-50de4a04c1d0",
+                                  "lookupField": "name",
+                                  "_expanded": false
+                                },
+                                {
+                                  "field": "418e325a-194c-41b5-85fa-e03a5182f8a2",
+                                  "label": "418e325a-194c-41b5-85fa-E03a5182f8a2",
+                                  "columnType": "lookup",
+                                  "lookupEntity": "418e325a-194c-41b5-85fa-e03a5182f8a2",
+                                  "lookupField": "id",
+                                  "_expanded": false
+                                },
+                                {
+                                  "field": "a0fad90b-8f2f-4b44-a7b9-b9130099ed37",
+                                  "label": "A0fad90b-8f2f-4b44-A7b9-B9130099ed37",
+                                  "columnType": "lookup",
+                                  "lookupEntity": "a0fad90b-8f2f-4b44-a7b9-b9130099ed37",
+                                  "lookupField": "id",
+                                  "_expanded": false
+                                }
+                              ],
+                              "components": [
+                                {
+                                  "type": "tbody",
+                                  "draggable": [
+                                    "table"
+                                  ],
+                                  "droppable": [
+                                    "tr"
+                                  ],
+                                  "components": [
+                                    {
+                                      "type": "row",
+                                      "draggable": [
+                                        "thead",
+                                        "tbody",
+                                        "tfoot"
+                                      ],
+                                      "droppable": [
+                                        "th",
+                                        "td"
+                                      ],
+                                      "classes": [
+                                        "row"
+                                      ],
+                                      "components": [
+                                        {
+                                          "type": "cell",
+                                          "draggable": [
+                                            "tr"
+                                          ],
+                                          "classes": [
+                                            "cell"
+                                          ]
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ],
+                              "chart-color": "#2c3e50"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ],
+                  "head": {
+                    "type": "head"
+                  },
+                  "docEl": {
+                    "tagName": "html"
+                  }
+                },
+                "id": "4yq1RRwB33dWSmii"
+              }
+            ],
+            "id": "page-user-1",
+            "route_path": "/user"
+          },
+          {
+            "name": "Appointment",
+            "frames": [
+              {
+                "component": {
+                  "type": "wrapper",
+                  "stylable": [
+                    "background",
+                    "background-color",
+                    "background-image",
+                    "background-repeat",
+                    "background-attachment",
+                    "background-position",
+                    "background-size"
+                  ],
+                  "components": [
+                    {
+                      "attributes": {
+                        "id": "ilf3j"
+                      },
+                      "components": [
+                        {
+                          "tagName": "nav",
+                          "attributes": {
+                            "id": "i2heh"
+                          },
+                          "components": [
+                            {
+                              "tagName": "h2",
+                              "type": "text",
+                              "attributes": {
+                                "id": "in7bt"
+                              },
+                              "components": [
+                                {
+                                  "type": "textnode",
+                                  "content": "BESSER"
+                                }
+                              ]
+                            },
+                            {
+                              "attributes": {
+                                "id": "imnhu"
+                              },
+                              "components": [
+                                {
+                                  "type": "link",
+                                  "attributes": {
+                                    "href": "/project",
+                                    "id": "i2zgk"
+                                  },
+                                  "components": [
+                                    {
+                                      "type": "textnode",
+                                      "content": "Project"
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "link",
+                                  "attributes": {
+                                    "href": "/user",
+                                    "id": "iovs4"
+                                  },
+                                  "components": [
+                                    {
+                                      "type": "textnode",
+                                      "content": "User"
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "link",
+                                  "attributes": {
+                                    "href": "/appointment",
+                                    "id": "ibw5g"
+                                  },
+                                  "components": [
+                                    {
+                                      "type": "textnode",
+                                      "content": "Appointment"
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "link",
+                                  "attributes": {
+                                    "href": "/comment",
+                                    "id": "ixuzv"
+                                  },
+                                  "components": [
+                                    {
+                                      "type": "textnode",
+                                      "content": "Comment"
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "link",
+                                  "attributes": {
+                                    "href": "/projectmembership",
+                                    "id": "ijjuo"
+                                  },
+                                  "components": [
+                                    {
+                                      "type": "textnode",
+                                      "content": "ProjectMembership"
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "type": "text",
+                              "attributes": {
+                                "id": "i6z6m"
+                              },
+                              "components": [
+                                {
+                                  "type": "textnode",
+                                  "content": "\u00a9 2025 BESSER. All rights reserved."
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "tagName": "main",
+                          "attributes": {
+                            "id": "ip31l"
+                          },
+                          "components": [
+                            {
+                              "tagName": "h1",
+                              "type": "text",
+                              "attributes": {
+                                "id": "ir3mj"
+                              },
+                              "components": [
+                                {
+                                  "type": "textnode",
+                                  "content": "Appointment"
+                                }
+                              ]
+                            },
+                            {
+                              "tagName": "p",
+                              "type": "text",
+                              "attributes": {
+                                "id": "ivt6q"
+                              },
+                              "components": [
+                                {
+                                  "type": "textnode",
+                                  "content": "Manage Appointment data"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "table",
+                              "style": "",
+                              "attributes": {
+                                "chart-color": "#2c3e50",
+                                "chart-title": "Appointment List",
+                                "data-source": "bc72c5b2-9fca-4dea-9131-e75ca5653fa1",
+                                "show-header": "true",
+                                "striped-rows": "false",
+                                "show-pagination": "true",
+                                "rows-per-page": "5",
+                                "action-buttons": "true",
+                                "columns": [
+                                  {
+                                    "field": "createdAt",
+                                    "label": "CreatedAt",
+                                    "columnType": "field",
+                                    "_expanded": false
+                                  },
+                                  {
+                                    "field": "updatedAt",
+                                    "label": "UpdatedAt",
+                                    "columnType": "field",
+                                    "_expanded": false
+                                  },
+                                  {
+                                    "field": "createdById",
+                                    "label": "CreatedById",
+                                    "columnType": "field",
+                                    "_expanded": false
+                                  },
+                                  {
+                                    "field": "updatedById",
+                                    "label": "UpdatedById",
+                                    "columnType": "field",
+                                    "_expanded": false
+                                  },
+                                  {
+                                    "field": "title",
+                                    "label": "Title",
+                                    "columnType": "field",
+                                    "_expanded": false
+                                  },
+                                  {
+                                    "field": "description",
+                                    "label": "Description",
+                                    "columnType": "field",
+                                    "_expanded": false
+                                  },
+                                  {
+                                    "field": "type",
+                                    "label": "Type",
+                                    "columnType": "field",
+                                    "_expanded": false
+                                  },
+                                  {
+                                    "field": "start_time",
+                                    "label": "Start Time",
+                                    "columnType": "field",
+                                    "_expanded": false
+                                  },
+                                  {
+                                    "field": "end_time",
+                                    "label": "End Time",
+                                    "columnType": "field",
+                                    "_expanded": false
+                                  },
+                                  {
+                                    "field": "id",
+                                    "label": "Id",
+                                    "columnType": "field",
+                                    "_expanded": false
+                                  },
+                                  {
+                                    "field": "7db6d44f-f245-4c8b-bedb-50de4a04c1d0",
+                                    "label": "7db6d44f-F245-4c8b-Bedb-50de4a04c1d0",
+                                    "columnType": "lookup",
+                                    "lookupEntity": "7db6d44f-f245-4c8b-bedb-50de4a04c1d0",
+                                    "lookupField": "name",
+                                    "_expanded": false
+                                  }
+                                ],
+                                "id": "table-appointment-2",
+                                "filter": ""
+                              },
+                              "chart-title": "Appointment List",
+                              "data-source": "bc72c5b2-9fca-4dea-9131-e75ca5653fa1",
+                              "show-header": "true",
+                              "striped-rows": "false",
+                              "show-pagination": "true",
+                              "action-buttons": "true",
+                              "rows-per-page": "5",
+                              "filter": "",
+                              "columns": [
+                                {
+                                  "field": "createdAt",
+                                  "label": "CreatedAt",
+                                  "columnType": "field",
+                                  "_expanded": false
+                                },
+                                {
+                                  "field": "updatedAt",
+                                  "label": "UpdatedAt",
+                                  "columnType": "field",
+                                  "_expanded": false
+                                },
+                                {
+                                  "field": "createdById",
+                                  "label": "CreatedById",
+                                  "columnType": "field",
+                                  "_expanded": false
+                                },
+                                {
+                                  "field": "updatedById",
+                                  "label": "UpdatedById",
+                                  "columnType": "field",
+                                  "_expanded": false
+                                },
+                                {
+                                  "field": "title",
+                                  "label": "Title",
+                                  "columnType": "field",
+                                  "_expanded": false
+                                },
+                                {
+                                  "field": "description",
+                                  "label": "Description",
+                                  "columnType": "field",
+                                  "_expanded": false
+                                },
+                                {
+                                  "field": "type",
+                                  "label": "Type",
+                                  "columnType": "field",
+                                  "_expanded": false
+                                },
+                                {
+                                  "field": "start_time",
+                                  "label": "Start Time",
+                                  "columnType": "field",
+                                  "_expanded": false
+                                },
+                                {
+                                  "field": "end_time",
+                                  "label": "End Time",
+                                  "columnType": "field",
+                                  "_expanded": false
+                                },
+                                {
+                                  "field": "id",
+                                  "label": "Id",
+                                  "columnType": "field",
+                                  "_expanded": false
+                                },
+                                {
+                                  "field": "7db6d44f-f245-4c8b-bedb-50de4a04c1d0",
+                                  "label": "7db6d44f-F245-4c8b-Bedb-50de4a04c1d0",
+                                  "columnType": "lookup",
+                                  "lookupEntity": "7db6d44f-f245-4c8b-bedb-50de4a04c1d0",
+                                  "lookupField": "name",
+                                  "_expanded": false
+                                }
+                              ],
+                              "components": [
+                                {
+                                  "type": "tbody",
+                                  "draggable": [
+                                    "table"
+                                  ],
+                                  "droppable": [
+                                    "tr"
+                                  ],
+                                  "components": [
+                                    {
+                                      "type": "row",
+                                      "draggable": [
+                                        "thead",
+                                        "tbody",
+                                        "tfoot"
+                                      ],
+                                      "droppable": [
+                                        "th",
+                                        "td"
+                                      ],
+                                      "classes": [
+                                        "row"
+                                      ],
+                                      "components": [
+                                        {
+                                          "type": "cell",
+                                          "draggable": [
+                                            "tr"
+                                          ],
+                                          "classes": [
+                                            "cell"
+                                          ]
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ],
+                              "chart-color": "#2c3e50"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ],
+                  "head": {
+                    "type": "head"
+                  },
+                  "docEl": {
+                    "tagName": "html"
+                  }
+                },
+                "id": "hJLOPluew47VC5x8"
+              }
+            ],
+            "id": "page-appointment-2",
+            "route_path": "/appointment"
+          },
+          {
+            "name": "Comment",
+            "frames": [
+              {
+                "component": {
+                  "type": "wrapper",
+                  "stylable": [
+                    "background",
+                    "background-color",
+                    "background-image",
+                    "background-repeat",
+                    "background-attachment",
+                    "background-position",
+                    "background-size"
+                  ],
+                  "components": [
+                    {
+                      "attributes": {
+                        "id": "icvmp"
+                      },
+                      "components": [
+                        {
+                          "tagName": "nav",
+                          "attributes": {
+                            "id": "ikpqk"
+                          },
+                          "components": [
+                            {
+                              "tagName": "h2",
+                              "type": "text",
+                              "attributes": {
+                                "id": "i5ira"
+                              },
+                              "components": [
+                                {
+                                  "type": "textnode",
+                                  "content": "BESSER"
+                                }
+                              ]
+                            },
+                            {
+                              "attributes": {
+                                "id": "i6tczm"
+                              },
+                              "components": [
+                                {
+                                  "type": "link",
+                                  "attributes": {
+                                    "href": "/project",
+                                    "id": "ik8bbi"
+                                  },
+                                  "components": [
+                                    {
+                                      "type": "textnode",
+                                      "content": "Project"
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "link",
+                                  "attributes": {
+                                    "href": "/user",
+                                    "id": "igq7v9"
+                                  },
+                                  "components": [
+                                    {
+                                      "type": "textnode",
+                                      "content": "User"
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "link",
+                                  "attributes": {
+                                    "href": "/appointment",
+                                    "id": "iarrjy"
+                                  },
+                                  "components": [
+                                    {
+                                      "type": "textnode",
+                                      "content": "Appointment"
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "link",
+                                  "attributes": {
+                                    "href": "/comment",
+                                    "id": "iq5549"
+                                  },
+                                  "components": [
+                                    {
+                                      "type": "textnode",
+                                      "content": "Comment"
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "link",
+                                  "attributes": {
+                                    "href": "/projectmembership",
+                                    "id": "ihpl06"
+                                  },
+                                  "components": [
+                                    {
+                                      "type": "textnode",
+                                      "content": "ProjectMembership"
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "type": "text",
+                              "attributes": {
+                                "id": "i575ot"
+                              },
+                              "components": [
+                                {
+                                  "type": "textnode",
+                                  "content": "\u00a9 2025 BESSER. All rights reserved."
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "tagName": "main",
+                          "attributes": {
+                            "id": "ig5pzg"
+                          },
+                          "components": [
+                            {
+                              "tagName": "h1",
+                              "type": "text",
+                              "attributes": {
+                                "id": "i4x7yh"
+                              },
+                              "components": [
+                                {
+                                  "type": "textnode",
+                                  "content": "Comment"
+                                }
+                              ]
+                            },
+                            {
+                              "tagName": "p",
+                              "type": "text",
+                              "attributes": {
+                                "id": "iujbr6"
+                              },
+                              "components": [
+                                {
+                                  "type": "textnode",
+                                  "content": "Manage Comment data"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "table",
+                              "style": "",
+                              "attributes": {
+                                "chart-color": "#2c3e50",
+                                "chart-title": "Comment List",
+                                "data-source": "418e325a-194c-41b5-85fa-e03a5182f8a2",
+                                "show-header": "true",
+                                "striped-rows": "false",
+                                "show-pagination": "true",
+                                "rows-per-page": "5",
+                                "action-buttons": "true",
+                                "columns": [
+                                  {
+                                    "field": "id",
+                                    "label": "Id",
+                                    "columnType": "field",
+                                    "_expanded": false
+                                  },
+                                  {
+                                    "field": "content",
+                                    "label": "Content",
+                                    "columnType": "field",
+                                    "_expanded": false
+                                  },
+                                  {
+                                    "field": "isPublic",
+                                    "label": "IsPublic",
+                                    "columnType": "field",
+                                    "_expanded": false
+                                  },
+                                  {
+                                    "field": "createdAt",
+                                    "label": "CreatedAt",
+                                    "columnType": "field",
+                                    "_expanded": false
+                                  },
+                                  {
+                                    "field": "updatedAt",
+                                    "label": "UpdatedAt",
+                                    "columnType": "field",
+                                    "_expanded": false
+                                  },
+                                  {
+                                    "field": "7db6d44f-f245-4c8b-bedb-50de4a04c1d0",
+                                    "label": "7db6d44f-F245-4c8b-Bedb-50de4a04c1d0",
+                                    "columnType": "lookup",
+                                    "lookupEntity": "7db6d44f-f245-4c8b-bedb-50de4a04c1d0",
+                                    "lookupField": "name",
+                                    "_expanded": false
+                                  },
+                                  {
+                                    "field": "df7eb41f-1dae-4d5d-8b31-3e01057337cc",
+                                    "label": "Df7eb41f-1dae-4d5d-8b31-3e01057337cc",
+                                    "columnType": "lookup",
+                                    "lookupEntity": "df7eb41f-1dae-4d5d-8b31-3e01057337cc",
+                                    "lookupField": "email",
+                                    "_expanded": false
+                                  }
+                                ],
+                                "id": "table-comment-3",
+                                "filter": ""
+                              },
+                              "chart-title": "Comment List",
+                              "data-source": "418e325a-194c-41b5-85fa-e03a5182f8a2",
+                              "show-header": "true",
+                              "striped-rows": "false",
+                              "show-pagination": "true",
+                              "action-buttons": "true",
+                              "rows-per-page": "5",
+                              "filter": "",
+                              "columns": [
+                                {
+                                  "field": "id",
+                                  "label": "Id",
+                                  "columnType": "field",
+                                  "_expanded": false
+                                },
+                                {
+                                  "field": "content",
+                                  "label": "Content",
+                                  "columnType": "field",
+                                  "_expanded": false
+                                },
+                                {
+                                  "field": "isPublic",
+                                  "label": "IsPublic",
+                                  "columnType": "field",
+                                  "_expanded": false
+                                },
+                                {
+                                  "field": "createdAt",
+                                  "label": "CreatedAt",
+                                  "columnType": "field",
+                                  "_expanded": false
+                                },
+                                {
+                                  "field": "updatedAt",
+                                  "label": "UpdatedAt",
+                                  "columnType": "field",
+                                  "_expanded": false
+                                },
+                                {
+                                  "field": "7db6d44f-f245-4c8b-bedb-50de4a04c1d0",
+                                  "label": "7db6d44f-F245-4c8b-Bedb-50de4a04c1d0",
+                                  "columnType": "lookup",
+                                  "lookupEntity": "7db6d44f-f245-4c8b-bedb-50de4a04c1d0",
+                                  "lookupField": "name",
+                                  "_expanded": false
+                                },
+                                {
+                                  "field": "df7eb41f-1dae-4d5d-8b31-3e01057337cc",
+                                  "label": "Df7eb41f-1dae-4d5d-8b31-3e01057337cc",
+                                  "columnType": "lookup",
+                                  "lookupEntity": "df7eb41f-1dae-4d5d-8b31-3e01057337cc",
+                                  "lookupField": "email",
+                                  "_expanded": false
+                                }
+                              ],
+                              "components": [
+                                {
+                                  "type": "tbody",
+                                  "draggable": [
+                                    "table"
+                                  ],
+                                  "droppable": [
+                                    "tr"
+                                  ],
+                                  "components": [
+                                    {
+                                      "type": "row",
+                                      "draggable": [
+                                        "thead",
+                                        "tbody",
+                                        "tfoot"
+                                      ],
+                                      "droppable": [
+                                        "th",
+                                        "td"
+                                      ],
+                                      "classes": [
+                                        "row"
+                                      ],
+                                      "components": [
+                                        {
+                                          "type": "cell",
+                                          "draggable": [
+                                            "tr"
+                                          ],
+                                          "classes": [
+                                            "cell"
+                                          ]
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ],
+                              "chart-color": "#2c3e50"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ],
+                  "head": {
+                    "type": "head"
+                  },
+                  "docEl": {
+                    "tagName": "html"
+                  }
+                },
+                "id": "IRsiw5ylRmYtMLfR"
+              }
+            ],
+            "id": "page-comment-3",
+            "route_path": "/comment"
+          }
+        ],
+        "styles": [
+          {
+            "selectors": [
+              "#i5obq"
+            ],
+            "style": {
+              "margin-top": "0",
+              "font-size": "24px",
+              "margin-bottom": "30px",
+              "font-weight": "bold"
+            }
+          },
+          {
+            "selectors": [
+              "#imalu"
+            ],
+            "style": {
+              "color": "white",
+              "text-decoration": "none",
+              "padding": "10px 15px",
+              "display": "block",
+              "background": "rgba(255,255,255,0.2)",
+              "border-radius": "4px",
+              "margin-bottom": "5px"
+            }
+          },
+          {
+            "selectors": [
+              "#i3hkv"
+            ],
+            "style": {
+              "color": "white",
+              "text-decoration": "none",
+              "padding": "10px 15px",
+              "display": "block",
+              "background": "transparent",
+              "border-radius": "4px",
+              "margin-bottom": "5px"
+            }
+          },
+          {
+            "selectors": [
+              "#iwl6w"
+            ],
+            "style": {
+              "color": "white",
+              "text-decoration": "none",
+              "padding": "10px 15px",
+              "display": "block",
+              "background": "transparent",
+              "border-radius": "4px",
+              "margin-bottom": "5px"
+            }
+          },
+          {
+            "selectors": [
+              "#ijsom"
+            ],
+            "style": {
+              "color": "white",
+              "text-decoration": "none",
+              "padding": "10px 15px",
+              "display": "block",
+              "background": "transparent",
+              "border-radius": "4px",
+              "margin-bottom": "5px"
+            }
+          },
+          {
+            "selectors": [
+              "#ic208"
+            ],
+            "style": {
+              "color": "white",
+              "text-decoration": "none",
+              "padding": "10px 15px",
+              "display": "block",
+              "background": "transparent",
+              "border-radius": "4px",
+              "margin-bottom": "5px"
+            }
+          },
+          {
+            "selectors": [
+              "#iamxb"
+            ],
+            "style": {
+              "display": "flex",
+              "flex-direction": "column",
+              "flex": "1"
+            }
+          },
+          {
+            "selectors": [
+              "#inc7b"
+            ],
+            "style": {
+              "margin-top": "auto",
+              "padding-top": "20px",
+              "border-top": "1px solid rgba(255,255,255,0.2)",
+              "font-size": "11px",
+              "opacity": "0.8",
+              "text-align": "center"
+            }
+          },
+          {
+            "selectors": [
+              "#iotij"
+            ],
+            "style": {
+              "width": "250px",
+              "background": "linear-gradient(135deg, #4b3c82 0%, #5a3d91 100%)",
+              "color": "white",
+              "padding": "20px",
+              "overflow-y": "auto",
+              "display": "flex",
+              "flex-direction": "column"
+            }
+          },
+          {
+            "selectors": [
+              "#itgrn"
+            ],
+            "style": {
+              "margin-top": "0",
+              "color": "#333",
+              "font-size": "32px",
+              "margin-bottom": "10px"
+            }
+          },
+          {
+            "selectors": [
+              "#i4dm9"
+            ],
+            "style": {
+              "color": "#666",
+              "margin-bottom": "30px"
+            }
+          },
+          {
+            "selectors": [
+              "#table-project-0"
+            ],
+            "style": {
+              "width": "100%",
+              "min-height": "400px"
+            }
+          },
+          {
+            "selectors": [
+              "#iqv37"
+            ],
+            "style": {
+              "flex": "1",
+              "padding": "40px",
+              "overflow-y": "auto",
+              "background": "#f5f5f5"
+            }
+          },
+          {
+            "selectors": [
+              "#inqeu"
+            ],
+            "style": {
+              "display": "flex",
+              "height": "100vh",
+              "font-family": "Arial, sans-serif"
+            }
+          },
+          {
+            "selectors": [
+              "#iymo6"
+            ],
+            "style": {
+              "margin-top": "0",
+              "font-size": "24px",
+              "margin-bottom": "30px",
+              "font-weight": "bold"
+            }
+          },
+          {
+            "selectors": [
+              "#ilmn6"
+            ],
+            "style": {
+              "color": "white",
+              "text-decoration": "none",
+              "padding": "10px 15px",
+              "display": "block",
+              "background": "transparent",
+              "border-radius": "4px",
+              "margin-bottom": "5px"
+            }
+          },
+          {
+            "selectors": [
+              "#i0hak"
+            ],
+            "style": {
+              "color": "white",
+              "text-decoration": "none",
+              "padding": "10px 15px",
+              "display": "block",
+              "background": "rgba(255,255,255,0.2)",
+              "border-radius": "4px",
+              "margin-bottom": "5px"
+            }
+          },
+          {
+            "selectors": [
+              "#i8cvh"
+            ],
+            "style": {
+              "color": "white",
+              "text-decoration": "none",
+              "padding": "10px 15px",
+              "display": "block",
+              "background": "transparent",
+              "border-radius": "4px",
+              "margin-bottom": "5px"
+            }
+          },
+          {
+            "selectors": [
+              "#iuc59"
+            ],
+            "style": {
+              "color": "white",
+              "text-decoration": "none",
+              "padding": "10px 15px",
+              "display": "block",
+              "background": "transparent",
+              "border-radius": "4px",
+              "margin-bottom": "5px"
+            }
+          },
+          {
+            "selectors": [
+              "#ihzpg"
+            ],
+            "style": {
+              "color": "white",
+              "text-decoration": "none",
+              "padding": "10px 15px",
+              "display": "block",
+              "background": "transparent",
+              "border-radius": "4px",
+              "margin-bottom": "5px"
+            }
+          },
+          {
+            "selectors": [
+              "#ihldi"
+            ],
+            "style": {
+              "display": "flex",
+              "flex-direction": "column",
+              "flex": "1"
+            }
+          },
+          {
+            "selectors": [
+              "#ismmh"
+            ],
+            "style": {
+              "margin-top": "auto",
+              "padding-top": "20px",
+              "border-top": "1px solid rgba(255,255,255,0.2)",
+              "font-size": "11px",
+              "opacity": "0.8",
+              "text-align": "center"
+            }
+          },
+          {
+            "selectors": [
+              "#i42c2"
+            ],
+            "style": {
+              "width": "250px",
+              "background": "linear-gradient(135deg, #4b3c82 0%, #5a3d91 100%)",
+              "color": "white",
+              "padding": "20px",
+              "overflow-y": "auto",
+              "display": "flex",
+              "flex-direction": "column"
+            }
+          },
+          {
+            "selectors": [
+              "#is3nu"
+            ],
+            "style": {
+              "margin-top": "0",
+              "color": "#333",
+              "font-size": "32px",
+              "margin-bottom": "10px"
+            }
+          },
+          {
+            "selectors": [
+              "#iejn7"
+            ],
+            "style": {
+              "color": "#666",
+              "margin-bottom": "30px"
+            }
+          },
+          {
+            "selectors": [
+              "#table-user-1"
+            ],
+            "style": {
+              "width": "100%",
+              "min-height": "400px"
+            }
+          },
+          {
+            "selectors": [
+              "#i9cm9"
+            ],
+            "style": {
+              "flex": "1",
+              "padding": "40px",
+              "overflow-y": "auto",
+              "background": "#f5f5f5"
+            }
+          },
+          {
+            "selectors": [
+              "#iiq9e"
+            ],
+            "style": {
+              "display": "flex",
+              "height": "100vh",
+              "font-family": "Arial, sans-serif"
+            }
+          },
+          {
+            "selectors": [
+              "#in7bt"
+            ],
+            "style": {
+              "margin-top": "0",
+              "font-size": "24px",
+              "margin-bottom": "30px",
+              "font-weight": "bold"
+            }
+          },
+          {
+            "selectors": [
+              "#i2zgk"
+            ],
+            "style": {
+              "color": "white",
+              "text-decoration": "none",
+              "padding": "10px 15px",
+              "display": "block",
+              "background": "transparent",
+              "border-radius": "4px",
+              "margin-bottom": "5px"
+            }
+          },
+          {
+            "selectors": [
+              "#iovs4"
+            ],
+            "style": {
+              "color": "white",
+              "text-decoration": "none",
+              "padding": "10px 15px",
+              "display": "block",
+              "background": "transparent",
+              "border-radius": "4px",
+              "margin-bottom": "5px"
+            }
+          },
+          {
+            "selectors": [
+              "#ibw5g"
+            ],
+            "style": {
+              "color": "white",
+              "text-decoration": "none",
+              "padding": "10px 15px",
+              "display": "block",
+              "background": "rgba(255,255,255,0.2)",
+              "border-radius": "4px",
+              "margin-bottom": "5px"
+            }
+          },
+          {
+            "selectors": [
+              "#ixuzv"
+            ],
+            "style": {
+              "color": "white",
+              "text-decoration": "none",
+              "padding": "10px 15px",
+              "display": "block",
+              "background": "transparent",
+              "border-radius": "4px",
+              "margin-bottom": "5px"
+            }
+          },
+          {
+            "selectors": [
+              "#ijjuo"
+            ],
+            "style": {
+              "color": "white",
+              "text-decoration": "none",
+              "padding": "10px 15px",
+              "display": "block",
+              "background": "transparent",
+              "border-radius": "4px",
+              "margin-bottom": "5px"
+            }
+          },
+          {
+            "selectors": [
+              "#imnhu"
+            ],
+            "style": {
+              "display": "flex",
+              "flex-direction": "column",
+              "flex": "1"
+            }
+          },
+          {
+            "selectors": [
+              "#i6z6m"
+            ],
+            "style": {
+              "margin-top": "auto",
+              "padding-top": "20px",
+              "border-top": "1px solid rgba(255,255,255,0.2)",
+              "font-size": "11px",
+              "opacity": "0.8",
+              "text-align": "center"
+            }
+          },
+          {
+            "selectors": [
+              "#i2heh"
+            ],
+            "style": {
+              "width": "250px",
+              "background": "linear-gradient(135deg, #4b3c82 0%, #5a3d91 100%)",
+              "color": "white",
+              "padding": "20px",
+              "overflow-y": "auto",
+              "display": "flex",
+              "flex-direction": "column"
+            }
+          },
+          {
+            "selectors": [
+              "#ir3mj"
+            ],
+            "style": {
+              "margin-top": "0",
+              "color": "#333",
+              "font-size": "32px",
+              "margin-bottom": "10px"
+            }
+          },
+          {
+            "selectors": [
+              "#ivt6q"
+            ],
+            "style": {
+              "color": "#666",
+              "margin-bottom": "30px"
+            }
+          },
+          {
+            "selectors": [
+              "#table-appointment-2"
+            ],
+            "style": {
+              "width": "100%",
+              "min-height": "400px"
+            }
+          },
+          {
+            "selectors": [
+              "#ip31l"
+            ],
+            "style": {
+              "flex": "1",
+              "padding": "40px",
+              "overflow-y": "auto",
+              "background": "#f5f5f5"
+            }
+          },
+          {
+            "selectors": [
+              "#ilf3j"
+            ],
+            "style": {
+              "display": "flex",
+              "height": "100vh",
+              "font-family": "Arial, sans-serif"
+            }
+          },
+          {
+            "selectors": [
+              "#i5ira"
+            ],
+            "style": {
+              "margin-top": "0",
+              "font-size": "24px",
+              "margin-bottom": "30px",
+              "font-weight": "bold"
+            }
+          },
+          {
+            "selectors": [
+              "#ik8bbi"
+            ],
+            "style": {
+              "color": "white",
+              "text-decoration": "none",
+              "padding": "10px 15px",
+              "display": "block",
+              "background": "transparent",
+              "border-radius": "4px",
+              "margin-bottom": "5px"
+            }
+          },
+          {
+            "selectors": [
+              "#igq7v9"
+            ],
+            "style": {
+              "color": "white",
+              "text-decoration": "none",
+              "padding": "10px 15px",
+              "display": "block",
+              "background": "transparent",
+              "border-radius": "4px",
+              "margin-bottom": "5px"
+            }
+          },
+          {
+            "selectors": [
+              "#iarrjy"
+            ],
+            "style": {
+              "color": "white",
+              "text-decoration": "none",
+              "padding": "10px 15px",
+              "display": "block",
+              "background": "transparent",
+              "border-radius": "4px",
+              "margin-bottom": "5px"
+            }
+          },
+          {
+            "selectors": [
+              "#iq5549"
+            ],
+            "style": {
+              "color": "white",
+              "text-decoration": "none",
+              "padding": "10px 15px",
+              "display": "block",
+              "background": "rgba(255,255,255,0.2)",
+              "border-radius": "4px",
+              "margin-bottom": "5px"
+            }
+          },
+          {
+            "selectors": [
+              "#ihpl06"
+            ],
+            "style": {
+              "color": "white",
+              "text-decoration": "none",
+              "padding": "10px 15px",
+              "display": "block",
+              "background": "transparent",
+              "border-radius": "4px",
+              "margin-bottom": "5px"
+            }
+          },
+          {
+            "selectors": [
+              "#i6tczm"
+            ],
+            "style": {
+              "display": "flex",
+              "flex-direction": "column",
+              "flex": "1"
+            }
+          },
+          {
+            "selectors": [
+              "#i575ot"
+            ],
+            "style": {
+              "margin-top": "auto",
+              "padding-top": "20px",
+              "border-top": "1px solid rgba(255,255,255,0.2)",
+              "font-size": "11px",
+              "opacity": "0.8",
+              "text-align": "center"
+            }
+          },
+          {
+            "selectors": [
+              "#ikpqk"
+            ],
+            "style": {
+              "width": "250px",
+              "background": "linear-gradient(135deg, #4b3c82 0%, #5a3d91 100%)",
+              "color": "white",
+              "padding": "20px",
+              "overflow-y": "auto",
+              "display": "flex",
+              "flex-direction": "column"
+            }
+          },
+          {
+            "selectors": [
+              "#i4x7yh"
+            ],
+            "style": {
+              "margin-top": "0",
+              "color": "#333",
+              "font-size": "32px",
+              "margin-bottom": "10px"
+            }
+          },
+          {
+            "selectors": [
+              "#iujbr6"
+            ],
+            "style": {
+              "color": "#666",
+              "margin-bottom": "30px"
+            }
+          },
+          {
+            "selectors": [
+              "#table-comment-3"
+            ],
+            "style": {
+              "width": "100%",
+              "min-height": "400px"
+            }
+          },
+          {
+            "selectors": [
+              "#ig5pzg"
+            ],
+            "style": {
+              "flex": "1",
+              "padding": "40px",
+              "overflow-y": "auto",
+              "background": "#f5f5f5"
+            }
+          },
+          {
+            "selectors": [
+              "#icvmp"
+            ],
+            "style": {
+              "display": "flex",
+              "height": "100vh",
+              "font-family": "Arial, sans-serif"
+            }
+          }
+        ],
+        "assets": [],
+        "symbols": [],
+        "version": "0.21.13"
+      },
+      "lastUpdate": "2026-01-29T17:15:16.512Z"
+    }
+  },
+  "settings": {
+    "defaultDiagramType": "ClassDiagram",
+    "autoSave": true,
+    "collaborationEnabled": false
+  }
+}
